@@ -17,19 +17,19 @@ class Form(QWidget):
         self.label = QLabel(self)
         self.label.setGeometry(-20, -50, 771, 511)
         self.label.setPixmap(QPixmap("Wallpaper Gif Full HD - Rhenan Lourenço ®.jpg"))
-
+        #button
         self.pushButton = QPushButton("Play", self)
         self.pushButton.setGeometry(280, 100, 141, 31)
         self.pushButton.setFont(QFont("MV Boli", 12))
         self.pushButton.setStyleSheet("background-color: rgb(170, 0, 255);")
         self.pushButton.clicked.connect(self.play_music)
-
+        #line Edir(Enter Text)
         self.lineEdit = QLineEdit(self)
         self.lineEdit.setGeometry(140, 40, 411, 41)
         self.lineEdit.setStyleSheet("background-color: rgb(0, 0, 0); color: mediumpurple;")  # Set text color to red
 
         self.lineEdit.setFont(QFont("MV Boli", 12))
-
+        #button
         self.pushButton_2 = QPushButton("Pause", self)
         self.pushButton_2.setGeometry(280, 190, 141, 31)
         self.pushButton_2.setFont(QFont("MV Boli", 12))
@@ -51,18 +51,22 @@ class Form(QWidget):
         self.pushButton4.setStyleSheet("background-color: rgb(170, 0, 255);")
         self.pushButton4.clicked.connect(self.unpause_music)
 
-
+    #for close app
     def close_form(self):
         self.close()
-    
+    #for play music
     def play_music(self):
+        #
         self.music_list = ['ShapurKerkere-320.mp3' , 'Ehtemalan Ghahremani Dar Kar Nist.mp3' , 'Tom-Odell-another-love1.mp3' ,\
                             'i love you.mp3' , 'Toomaj - Tifus.mp3' , 'Pastlives - sapientdream.mp3',\
                                 'Cant Get You out Of My Head.mp3' , 'i dont like it, youre not the same.mp3']
+            #Line Edit (Enter text for play music)        
         if self.lineEdit.text() == "kerkere":
             pygame.init()
+            
             pygame.mixer.music.load(self.music_list[0])
             pygame.mixer.music.play()
+            
         elif self.lineEdit.text()=="gharemani dar kar nist":
             pygame.init()
             pygame.mixer.music.load(self.music_list[1])
@@ -97,28 +101,33 @@ class Form(QWidget):
             pygame.mixer.music.load(self.music_list[7])
             pygame.mixer.music.play()
 
-
+        # show message if the user doesn't type any music
         else:
             message=QMessageBox()
             message.setText("i dont have this music sorry:)")
             message.exec()
-
+    # for puse music
     def pause_music(self):
         pygame.init()
         pygame.mixer.music.pause()
 
+    #for resume music
+    
     def unpause_music(self):
         pygame.init()
         pygame.mixer.music.unpause()
 
+    # show message if the user select no music to pause
     def text(self):
         if self.lineEdit.text()=="":
             message=QMessageBox()
             message.setText("You have no music to pause")
             message.exec()
             
-        
+
 app = QApplication(sys.argv)
 form = Form()
+# Show app
+
 form.show()
 sys.exit(app.exec())
