@@ -17,9 +17,8 @@ class Form(QWidget):
         self.label = QLabel(self)
         self.label.setGeometry(-20, -50, 771, 511)
 
-         #if picture doesn't show you change location of picture
 
-        self.label.setPixmap(QPixmap("D:\music_app-main\music_app\Wallpaper Gif Full HD - Rhenan Lourenco ®.jpg"))
+        self.label.setPixmap(QPixmap('Wallpaper Gif Full HD - Rhenan Lourenço ®.jpg'))
         #button
         self.pushButton = QPushButton("Play", self)
         self.pushButton.setGeometry(280, 100, 141, 31)
@@ -63,8 +62,9 @@ class Form(QWidget):
         self.music_list = ['ShapurKerkere-320.mp3' , 'Ehtemalan Ghahremani Dar Kar Nist.mp3' , 'Tom-Odell-another-love1.mp3' ,\
                             'i love you.mp3' , 'Toomaj - Tifus.mp3' , 'Pastlives - sapientdream.mp3',\
                                 'Cant Get You out Of My Head.mp3' , 'i dont like it, youre not the same.mp3' , \
-                                    'Mockingbird.mp3' , 'dance with me.mp3' , 'Space Song.mp3' , 'Six Feet Under.mp3']
-            #Line Edit (Enter text for play music)        
+                                    'Mockingbird.mp3' , 'dance with me.mp3' , 'Space Song.mp3' , 'Six Feet Under.mp3',\
+                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' ]
+            #Line Edit (Enter text for play music)       
         if self.lineEdit.text() == "kerkere":
             pygame.init()
             
@@ -124,6 +124,28 @@ class Form(QWidget):
             pygame.init()
             pygame.mixer.music.load(self.music_list[11])
             pygame.mixer.music.play()
+
+        elif self.lineEdit.text()=="rooz haaye khobe":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[12])
+            pygame.mixer.music.play()
+
+        elif self.lineEdit.text()=="losing intrest":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[13])
+            pygame.mixer.music.play()
+
+        elif self.lineEdit.text()=="its not so bad":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[14])
+            pygame.mixer.music.play()
+
+
+        elif self.lineEdit.text()=="freaks but":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[15])
+            pygame.mixer.music.play()
+
 
         # show message if the user doesn't type any music
         else:
