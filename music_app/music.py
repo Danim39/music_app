@@ -63,7 +63,7 @@ class Form(QWidget):
                             'i love you.mp3' , 'Toomaj - Tifus.mp3' , 'Pastlives - sapientdream.mp3',\
                                 'Cant Get You out Of My Head.mp3' , 'i dont like it, youre not the same.mp3' , \
                                     'Mockingbird.mp3' , 'dance with me.mp3' , 'Space Song.mp3' , 'Six Feet Under.mp3',\
-                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' ]
+                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' , 'Reza Pishro - Ghabrestoune Hip Hop.mp3' , 'Palangi.mp3' ]
             #Line Edit (Enter text for play music)       
         if self.lineEdit.text() == "kerkere":
             pygame.init()
@@ -146,6 +146,15 @@ class Form(QWidget):
             pygame.mixer.music.load(self.music_list[15])
             pygame.mixer.music.play()
 
+        elif self.lineEdit.text()=="ghabrestoune hip hop":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[16])
+            pygame.mixer.music.play()
+
+        elif self.lineEdit.text()=="palangi":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[17])
+            pygame.mixer.music.play()
 
         # show message if the user doesn't type any music
         else:
