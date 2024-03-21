@@ -11,7 +11,7 @@ class Form(QWidget):
     def __init__(self):
         super().__init__()
         self.setGeometry(0, 0, 687, 411)
-        self.setWindowTitle("music")
+        self.setWindowTitle("Music player")
         
 
         self.label = QLabel(self)
@@ -25,6 +25,8 @@ class Form(QWidget):
         self.pushButton.setFont(QFont("MV Boli", 12))
         self.pushButton.setStyleSheet("background-color: rgb(170, 0, 255);")
         self.pushButton.clicked.connect(self.play_music)
+        
+
         #line Edir(Enter Text)
         self.lineEdit = QLineEdit(self)
         self.lineEdit.setGeometry(140, 40, 411, 41)
@@ -37,7 +39,7 @@ class Form(QWidget):
         self.pushButton_2.setFont(QFont("MV Boli", 12))
         self.pushButton_2.setStyleSheet("background-color: rgb(170, 0, 255);")
         self.pushButton_2.clicked.connect(self.pause_music)
-        self.pushButton_2.clicked.connect(self.text)
+    
 
         self.pushButton3 = QPushButton("Close", self)
         self.pushButton3.setGeometry(280, 350, 141, 31)
@@ -63,7 +65,7 @@ class Form(QWidget):
                             'i love you.mp3' , 'Toomaj - Tifus.mp3' , 'Pastlives - sapientdream.mp3',
                                 'Cant Get You out Of My Head.mp3' , 'i dont like it, youre not the same.mp3' , 
                                     'Mockingbird.mp3' , 'dance with me.mp3' , 'Space Song.mp3' , 'Six Feet Under.mp3',
-                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' , 'Reza Pishro - Ghabrestoune Hip Hop.mp3' , 'Palangi.mp3', 'Baby Bebin Baroone.mp3' , 'Cigare Soorati.mp3' ]
+                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' , 'Reza Pishro - Ghabrestoune Hip Hop.mp3' , 'Palangi.mp3', 'Baby Bebin Baroone.mp3' , 'Cigare Soorati.mp3' , 'WASTE - Slowed Version.mp3' , 'Ending.mp3' ]
             #Line Edit (Enter text for play music)       
         if self.lineEdit.text() == "kerkere":
             pygame.init()
@@ -125,7 +127,7 @@ class Form(QWidget):
             pygame.mixer.music.load(self.music_list[11])
             pygame.mixer.music.play()
 
-        elif self.lineEdit.text()=="rooz haaye khobe":
+        elif self.lineEdit.text()=="rooz haaye khob":
             pygame.init()
             pygame.mixer.music.load(self.music_list[12])
             pygame.mixer.music.play()
@@ -166,12 +168,29 @@ class Form(QWidget):
             pygame.mixer.music.load(self.music_list[19])
             pygame.mixer.music.play()
 
+        elif self.lineEdit.text()=="waste":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[20])
+            pygame.mixer.music.play()
+        
+        elif self.lineEdit.text()=="ending":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[21])
+            pygame.mixer.music.play()
+
         # show message if the user doesn't type any music
-        else:
+        elif self.lineEdit.text()=="":
             message=QMessageBox()
-            message.setText("i dont have this music sorry:)")
+            message.setText("Select the music")
             message.exec()
-    # for puse music
+
+           # show messgae if tne music not found
+        else:
+            message2=QMessageBox()
+            message2.setText("i dont have this music")
+            message2.exec()
+            
+    # for pause music
     def pause_music(self):
         pygame.init()
         pygame.mixer.music.pause()
@@ -188,8 +207,8 @@ class Form(QWidget):
             message=QMessageBox()
             message.setText("You have no music to pause")
             message.exec()
+    
             
-
 app = QApplication(sys.argv)
 form = Form()
 # Show app
