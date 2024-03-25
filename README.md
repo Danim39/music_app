@@ -4,7 +4,7 @@ first install PyQt6 library follow this code for install
                     
 after install PyQt6 library you can use The code
 
-for play music use small words for Enter the name of music
+for play music use small words to Enter the name of music
 
 Music:
 
