@@ -24,3 +24,5 @@ Music:
   'Hope.mp3' , 'Fairytale.mp3' , 'Shootout.mp3' , 'Powfu, beabadoobee - death bed (coffee for your head).mp3 , 'Airplanemode' , 'hide and seek(Erfan(iranian artist))'
 
   remix Another love and Summer sadness , Go Little Rockstar ,  Arta & Koorosh - Zendegi Hamine. , Yas - BEEM  بیم, Yas - Sarkoob
+
+  Yas - LaL , NF - The Search
