@@ -28,4 +28,5 @@ Music:
   Yas - LaL , NF - The Search , Rio Romeo - Nothing's New , SpoMehrad Hidden Sepehr Khalse - Khodafez , Summertime Sadness
 
   AURORA - Runaway , Vengeance , Bawaasir ,   Lil Peep - Star Shopping , Miley Cyrus - Flowers , Yadete (feat. Sogand) 
-  KALEO - Way down We Go.mp3
+
+  KALEO - Way down We Go , 021kid - Naghabel , Yas - Bad Shodam
