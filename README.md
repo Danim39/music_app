@@ -31,4 +31,4 @@ Music:
 
   KALEO - Way down We Go , 021kid - Naghabel , Yas - Bad Shodam , SoelChigini - KOOFEH , Homage , Nabz , Kaftar Bazi 
 
-  GHORS II , OD
+  GHORS II , OD , AZHIR , SLAP
