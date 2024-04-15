@@ -64,7 +64,7 @@ class Form(QWidget):
                             'i love you.mp3' , 'Toomaj - Tifus.mp3' , 'Pastlives - sapientdream.mp3',
                                 'Cant Get You out Of My Head.mp3' , 'i dont like it, youre not the same.mp3' , 
                                     'Mockingbird.mp3' , 'dance with me.mp3' , 'Space Song.mp3' , 'Six Feet Under.mp3',
-                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' , 'Reza Pishro - Ghabrestoune Hip Hop.mp3' , 'Palangi.mp3', 'Baby Bebin Baroone.mp3' , 'Cigare Soorati.mp3' , 'WASTE - Slowed Version.mp3' , 'Ending.mp3','Age Ye Rooz - Remix.mp3' , 'Erfan, Gdaal, Imanemun - Be Yade - Remix.mp3' , 'Cheri Cheri Lady.mp3' , 'Billie Eilish - TV.mp3' , 'Hope.mp3' , 'Fairytale.mp3' , 'Shootout.mp3' , 'Powfu, beabadoobee - death bed (coffee for your head).mp3', 'ASADI, Erfan, Xye - Hide & Seek.mp3' , 'AirplaneMode.mp3' , 'tommymuzzic_another_love_x_summertime_sadness.mp3' , 'Billie Eilish - lovely (with Khalid).mp3' , 'Arta & Koorosh - Zendegi Hamine.mp3' , 'Go Little Rockstar.mp3' , 'Yas - BEEM  بیم.mp3' , 'Yas - Sarkoob.mp3' ,'Yas - LaL.mp3' , 'NF - The Search.mp3' , 'Rio Romeo - Nothings New.mp3' , 'Khodafez.mp3' , 'AURORA - Runaway.mp3' , 'Summertime Sadn ,ess.mp3' , 'Bawaasir.mp3' , 'Miley Cyrus - Flowers.mp3' , 'LUCKY LOVE - MASCULINITY.mp3' , 'Lil Peep - Star Shopping.mp3' , 'Vengeance.mp3' , 'Yadete (feat. Sogand).mp3' , 'KALEO - Way down We Go.mp3' , '021kid - Naghabel.mp3' , 'Yas - Bad Shodam.mp3' , 'Homage.mp3' , 'w.mp3' , 'Nabz-Pe7aeFp_RTo-192k-1712514228.mp3' , 'Kaftar Bazi-8Eoc-GG6h9E-192k-1712514610.mp3' , 'OD-mxsMr7RdciY-192k-1712613994.mp3' , 'GHORS II-Lw7LWxJnMVg-192k-1712614772.mp3' , 'SLAP feat. Chvrsi -7Iq5G8DsYnY-192k-1712679249.mp3' , 'AZHIR-ZTSyw81WpaQ-192k-1712680355.mp3' , 'you_broke_my_heart_again-oV5af6XGZtg-192k-1712754820.mp3' , 'Silk-IYWg-jGNLvo-192k-1712755203.mp3' , 'Illegal Remix -eIbyHCB00o4-192k-1712822166.mp3' , 'when the partys over.mp3' , 'Oon Dare Mire-Ajvrcd1YzJM-192k-1712980420.mp3' , 'Romantic Homicide-gPDCwmaUSSM-192k-1712980601.mp3' , 'Batman.mp3' , 'Inja Irane.mp3']
+                                        'Roozhaaye Khoobe Koodaki.mp3' , 'Losing Interest.mp3' , 'Freaks but Slowed Muffled Echo.mp3' , 'Its Not So Bad.mp3' , 'Reza Pishro - Ghabrestoune Hip Hop.mp3' , 'Palangi.mp3', 'Baby Bebin Baroone.mp3' , 'Cigare Soorati.mp3' , 'WASTE - Slowed Version.mp3' , 'Ending.mp3','Age Ye Rooz - Remix.mp3' , 'Erfan, Gdaal, Imanemun - Be Yade - Remix.mp3' , 'Cheri Cheri Lady.mp3' , 'Billie Eilish - TV.mp3' , 'Hope.mp3' , 'Fairytale.mp3' , 'Shootout.mp3' , 'Powfu, beabadoobee - death bed (coffee for your head).mp3', 'ASADI, Erfan, Xye - Hide & Seek.mp3' , 'AirplaneMode.mp3' , 'tommymuzzic_another_love_x_summertime_sadness.mp3' , 'Billie Eilish - lovely (with Khalid).mp3' , 'Arta & Koorosh - Zendegi Hamine.mp3' , 'Go Little Rockstar.mp3' , 'Yas - BEEM  بیم.mp3' , 'Yas - Sarkoob.mp3' ,'Yas - LaL.mp3' , 'NF - The Search.mp3' , 'Rio Romeo - Nothings New.mp3' , 'Khodafez.mp3' , 'AURORA - Runaway.mp3' , 'Summertime Sadn ,ess.mp3' , 'Bawaasir.mp3' , 'Miley Cyrus - Flowers.mp3' , 'LUCKY LOVE - MASCULINITY.mp3' , 'Lil Peep - Star Shopping.mp3' , 'Vengeance.mp3' , 'Yadete (feat. Sogand).mp3' , 'KALEO - Way down We Go.mp3' , '021kid - Naghabel.mp3' , 'Yas - Bad Shodam.mp3' , 'Homage.mp3' , 'w.mp3' , 'Nabz-Pe7aeFp_RTo-192k-1712514228.mp3' , 'Kaftar Bazi-8Eoc-GG6h9E-192k-1712514610.mp3' , 'OD-mxsMr7RdciY-192k-1712613994.mp3' , 'GHORS II-Lw7LWxJnMVg-192k-1712614772.mp3' , 'SLAP feat. Chvrsi -7Iq5G8DsYnY-192k-1712679249.mp3' , 'AZHIR-ZTSyw81WpaQ-192k-1712680355.mp3' , 'you_broke_my_heart_again-oV5af6XGZtg-192k-1712754820.mp3' , 'Silk-IYWg-jGNLvo-192k-1712755203.mp3' , 'Illegal Remix -eIbyHCB00o4-192k-1712822166.mp3' , 'when the partys over.mp3' , 'Oon Dare Mire-Ajvrcd1YzJM-192k-1712980420.mp3' , 'Romantic Homicide-gPDCwmaUSSM-192k-1712980601.mp3' , 'Batman.mp3' , 'Inja Irane.mp3' , 'Pesar.mp3' , 'Yeki Dar Mizane.mp3']
             #Line Edit (Enter text for play music)       
         if self.lineEdit.text() == "kerkere":
             pygame.init()
@@ -411,6 +411,16 @@ class Form(QWidget):
         elif self.lineEdit.text()=="inja irane":
             pygame.init()
             pygame.mixer.music.load(self.music_list[68])
+            pygame.mixer.music.play()
+        
+        elif self.lineEdit.text()=="pesar":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[69])
+            pygame.mixer.music.play()
+
+        elif self.lineEdit.text()=="yeki dar mizane":
+            pygame.init()
+            pygame.mixer.music.load(self.music_list[70])
             pygame.mixer.music.play()
 
         # show message if the user doesn't type any music
